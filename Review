@@ -1,0 +1,79 @@
+
+consistency chapter !!!!
+
+Conit Granularity
+
+the difference between two. the frequent of updates.
+
+****Sequential Consistency
+Example 2
+what is the print and signature 
+
+
+Casual Consistency
+
+
+*Mutual Exclusion on Shared Memory
+
+
+monitor 
+easy to use but need the support of programming language.
+
+***Consistency v.s. Coherence
+
+***The MESI Protocol 
+Eventual Consistency
+examples **
+Quorum-based Protocols
+
+
+Faluty chapter !!!
+
+Failure Masking by Redundancy
+Example: Triple Modular Redundancy
+
+
+Byzantine Generals Problem 
+
+
+
+Reliable Client-Server Communication
+Example: Printing Text (3/3)
+
+
+
+Atomic Multicast
+
+
+
+Distributed Commit
+
+Two-Phase Commit (the limitations ) The failure of coordinator will casue long communication time 
+Three-Phase Commit (So many communications, not wroth it)
+
+
+Recovery – Stable Storage
+
+Checkpointing
+
+
+
+Crypograhy chapter !!!
+
+Cryptography
+
+public key desgin takes long time to encrypt but hard to decrypt 
+the secerte key based is vice 
+
+The Reflection Attack
+
+Key Distribution Center
+
+
+
+GPU chapter !!!
+
+
+
+
+
