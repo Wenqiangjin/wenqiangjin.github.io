@@ -3,6 +3,7 @@
       <ul class="ul">{% if page.category == 'people' %}
         <li class="{% if page.type == 'PI' %}this{% endif %}"><a title="PI" href="{{ site.url }}/teacher/">PI</a></li>
         <li class="{% if page.type == 'co-pi' %}this{% endif %}"><a title="Core Collaborators" href="{{ site.url }}/co-pi/">Core Collaborators</a></li>
+        <li class="{% if page.type == '博士后' %}this{% endif %}"><a title="博士生" href="{{ site.url }}/postdoctor/">博士后</a></li>
         <li class="{% if page.type == '博士生' %}this{% endif %}"><a title="博士生" href="{{ site.url }}/doctor/">博士生</a></li>
         <li class="{% if page.type == '硕士生' %}this{% endif %}"><a title="硕士生" href="{{ site.url }}/master/">硕士生</a></li>
         <li class="{% if page.type == '本科生' %}this{% endif %}"><a title="职工" href="{{ site.url }}/staff/">本科生</a></li>{% endif %}
