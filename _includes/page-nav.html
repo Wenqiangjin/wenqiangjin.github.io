@@ -1,11 +1,11 @@
 <div class="info_l" id="temp_l">
     <div class="left_ul">
       <ul class="ul">{% if page.category == 'people' %}
-        <li class="{% if page.type == '教师' %}this{% endif %}"><a title="教师" href="{{ site.url }}/teacher/">教师</a></li>
+        <li class="{% if page.type == '教师' %}this{% endif %}"><a title="PI" href="{{ site.url }}/teacher/">PI</a></li>
+        <li class="{% if page.type == '教师' %}this{% endif %}"><a title="Core Collaborators" href="{{ site.url }}/co-pi/">Core Collaborators</a></li>
         <li class="{% if page.type == '博士生' %}this{% endif %}"><a title="博士生" href="{{ site.url }}/doctor/">博士生</a></li>
         <li class="{% if page.type == '硕士生' %}this{% endif %}"><a title="硕士生" href="{{ site.url }}/master/">硕士生</a></li>
-        <li class="{% if page.type == '本科生' %}this{% endif %}"><a title="职工" href="{{ site.url }}/staff/">本科生</a></li>
-        <li class="{% if page.type == '毕业生' %}this{% endif %}"><a title="毕业生" href="{{ site.url }}/graduate/">毕业生</a></li>{% endif %}{% if page.category == 'equipment' %}{% for post in site.categories["equipment"] %}
+        <li class="{% if page.type == '本科生' %}this{% endif %}"><a title="职工" href="{{ site.url }}/staff/">本科生</a></li>{% endif %}{% if page.category == 'equipment' %}{% for post in site.categories["equipment"] %}
         <li><a title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}{% endif %}{% if page.category == 'research' %}
         <li class="{% if page.type == '仿生软体' %}this{% endif %}"><a title="仿生软体" href="{{ site.url }}/soft-robotics/">仿生软体</a></li>
         <li class="{% if page.type == '模块攀爬' %}this{% endif %}"><a title="模块攀爬" href="{{ site.url }}/module-climbing/">模块攀爬</a></li>
