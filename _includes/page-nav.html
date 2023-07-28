@@ -17,8 +17,9 @@
         <li class="{% if page.type == '共融操作' %}this{% endif %}"><a title="共融操作" href="{{ site.url }}/human-robotics/">共融操作</a></li>
         <li class="{% if page.type == 'SLAM' %}this{% endif %}"><a title="SLAM" href="{{ site.url }}/slam/">SLAM</a></li>
         <li class="{% if page.type == '智能工业' %}this{% endif %}"><a title="智能工业" href="{{ site.url }}/intelligent-industry/">智能工业</a></li>{% endif %}{% if page.category == 'lab-news' %}
-        <li class="{% if page.type == '学习交流' %}this{% endif %}"><a title="学习交流" href="{{ site.url }}/learning-exchange/">学习交流</a></li>
-        <li class="{% if page.type == '文娱活动' %}this{% endif %}"><a title="文娱活动" href="{{ site.url }}/entertainment/">文娱活动</a></li>{% endif %}{% if page.category == 'contact' %}
+<!--        <li class="{% if page.type == '学习交流' %}this{% endif %}"><a title="学习交流" href="{{ site.url }}/learning-exchange/">学习交流</a></li>-->
+<!--        <li class="{% if page.type == '文娱活动' %}this{% endif %}"><a title="文娱活动" href="{{ site.url }}/entertainment/">文娱活动</a></li>-->
+        {% endif %}{% if page.category == 'contact' %}
         <li class="{% if page.type == '联系我们' %}this{% endif %}"><a title="联系方式" href="{{ site.url }}/contact/">联系我们</a></li>{% endif %}
       </ul>
     </div>
