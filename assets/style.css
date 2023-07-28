@@ -128,8 +128,8 @@ body {font-size:15px;background-position:0 0;background-repeat:repeat;}
 .main_app .app_bottom ul li a:hover .pt{color:#004da1;}
 
 
-.main_app .app_bottom .news_bottom{float:left; width:350px; height:228px; overflow:hidden;}
-.main_app .app_bottom .news_bottom li{height:82px; overflow:hidden;}
+.main_app .app_bottom .news_bottom{float:left; width:1000px;}
+.main_app .app_bottom .news_bottom li{height:82px;}
 .main_app .app_bottom .news_bottom li .date{float:left; margin-right:10px; width:67px; height:61px; background:url(../images/assets/0-035.jpg) no-repeat ;}
 .main_app .app_bottom .news_bottom li .date .day{ display:block;width:65px; height:31px; text-align:center; line-height:31px;font-size:24px; color:#004da1; }
 .main_app .app_bottom .news_bottom li .date .month{ display:block;width:65px; height:27px; text-align:center; line-height:27px; font-size:14px; color:#004da1;}
