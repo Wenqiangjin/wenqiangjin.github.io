@@ -51,9 +51,6 @@ jQuery(".main_img_c").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true,d
               </div>
           </div>
         </div>
-        <script type="text/javascript">
-          jQuery(".about_bottom .right").slide({mainCell:".bd ul",autoPlay:true,effect:"topMarquee",vis:3,interTime:50,delayTime:1000});
-        </script>
       </div>
     </div>
     <div class="main_app">
@@ -100,49 +97,54 @@ jQuery(".main_img_c").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true,d
       <div class="app_top">
         <div class="app_top"><p>新闻资讯<span>NEWS</span></p></div>
       </div>
-      <div class="app_bottom">
-        <ul class="infoList" id="infoList">{% for post in site.categories["learning-exchange"] %}
-          <li class="li">
-            <div class="date">
-              <p class="day"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%d" }}</a></p>
-              <span class="month"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%Y-%m" }}</a></span>
-            </div>
-            <div class="text">
-              <h3 style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-              <p><a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a></p>
-            </div>
-          </li>{% endfor %}{% for post in site.categories["entertainment"] %}
-          <li class="li">
-            <div class="date">
-              <p class="day"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%d" }}</a></p>
-              <span class="month"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%Y-%m" }}</a></span>
-            </div>
-            <div class="text">
-              <h3 style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-              <p><a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a></p>
-            </div>
-          </li>{% endfor %}{% for post in site.categories["academic-exchange"] %}
-          <li class="li">
-            <div class="date">
-              <p class="day"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%d" }}</a></p>
-              <span class="month"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%Y-%m" }}</a></span>
-            </div>
-            <div class="text">
-              <h3 style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-              <p><a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a></p>
-            </div>
-          </li>{% endfor %}{% for post in site.categories["project-cooperation"] %}
-          <li class="li">
-            <div class="date">
-              <p class="day"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%d" }}</a></p>
-              <span class="month"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%Y-%m" }}</a></span>
-            </div>
-            <div class="text">
-              <h3 style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-              <p><a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a></p>
-            </div>
-          </li>{% endfor %}
-        </ul>
+      <div class="app_bottom1">
+        <div class="bd">
+          <ul class="infoList" id="infoList">{% for post in site.categories["learning-exchange"] %}
+            <li class="li">
+              <div class="date">
+                <p class="day"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%d" }}</a></p>
+                <span class="month"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%Y-%m" }}</a></span>
+              </div>
+              <div class="text">
+                <h3 style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+                <p><a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a></p>
+              </div>
+            </li>{% endfor %}{% for post in site.categories["entertainment"] %}
+            <li class="li">
+              <div class="date">
+                <p class="day"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%d" }}</a></p>
+                <span class="month"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%Y-%m" }}</a></span>
+              </div>
+              <div class="text">
+                <h3 style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+                <p><a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a></p>
+              </div>
+            </li>{% endfor %}{% for post in site.categories["academic-exchange"] %}
+            <li class="li">
+              <div class="date">
+                <p class="day"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%d" }}</a></p>
+                <span class="month"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%Y-%m" }}</a></span>
+              </div>
+              <div class="text">
+                <h3 style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+                <p><a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a></p>
+              </div>
+            </li>{% endfor %}{% for post in site.categories["project-cooperation"] %}
+            <li class="li">
+              <div class="date">
+                <p class="day"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%d" }}</a></p>
+                <span class="month"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%Y-%m" }}</a></span>
+              </div>
+              <div class="text">
+                <h3 style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+                <p><a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a></p>
+              </div>
+            </li>{% endfor %}
+          </ul>
+        </div>
+<!--        <script type="text/javascript">-->
+<!--          jQuery(".about_bottom .right").slide({mainCell:".bd ul",autoPlay:true,effect:"topMarquee",vis:3,interTime:50,delayTime:1000});-->
+<!--        </script>-->
       </div>
     </div>
 
