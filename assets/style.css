@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {display:block;font-weight:normal;}
 .height15{width:100%; height:15px; overflow:hidden;}
 .height20{width:100%; height:20px; overflow:hidden;}
 table{border-collapse:collapse;border-spacing:0;}
-table tr{ height:26px; line-height:26px; overflow:hidden;} 
+table tr{ height:26px; line-height:26px; overflow:hidden;}
 table tr td{ padding-left:5px;}
 body {font-size:15px;background-position:0 0;background-repeat:repeat;}
 /*css3*/
@@ -49,7 +49,7 @@ body {font-size:15px;background-position:0 0;background-repeat:repeat;}
 /*********************** navlist   *******************/
 .head_bottom{ position:relative;width:100%; min-width:1000px; height:44px; background-color:#004da1; z-index:9999;}
 .head_nav{  margin:0 auto; width:1000px; height:44px; }
-.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}		
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
 .nav_left li .lia{ color:#fff;display:block; width:100px; height:44px;font-family:"Microsoft Yahei"; font-size:16px; color:#fff; background-color:#004da1;}
 .nav_left li .lia:hover,.nav_left .nLi.on .lia{ background-color:#3d3d3d;_color:#FFF;}
 .nav_left .nLi{ position:relative; display:inline; float:left; width:100px; height:44px; line-height:44px; text-align:center; }
@@ -127,18 +127,6 @@ body {font-size:15px;background-position:0 0;background-repeat:repeat;}
 .main_app .app_bottom ul li a .pt{ height:30px; line-height:30px; text-align:center;color:#454545;}
 .main_app .app_bottom ul li a:hover .pt{color:#004da1;}
 
-.main_app .app_bottom1{float:right; width:350px; height:228px; overflow:hidden;}
-.main_app .app_bottom1 .bd{ width:350px; height:228px;
-.main_app .app_bottom1 .bd li{height:82px; overflow:hidden;}
-.main_app .app_bottom1 .bd li .date{float:left; margin-right:10px; width:67px; height:61px; background:url(../images/assets/0-035.jpg) no-repeat ;}
-.main_app .app_bottom1 .bd li .date .day{ display:block;width:65px; height:31px; text-align:center; line-height:31px;font-size:24px; color:#004da1; }
-.main_app .app_bottom1 .bd li .date .month{ display:block;width:65px; height:27px; text-align:center; line-height:27px; font-size:14px; color:#004da1;}
-.main_app .app_bottom1 .bd li .text{ float:left;width:270px; height:61px; overflow:hidden;}
-.main_app .app_bottom1 .bd li .text h3{height:20px; line-height:20px; font-size:14px; font-weight:normal; color:#666666;cursor:pointer;}
-.main_app .app_bottom1 .bd li .text h3:hover{color:#024EA6;}
-.main_app .app_bottom1 .bd li .text p{ line-height:22px; font-family:simsun; font-size:12px; font-weight:normal; color:#808080;}
-
-
 .main_about_us{width:1000px; height:331px; overflow:hidden;}
 .main_about_us .about_top{ padding-top: 28px; width:1000px; height:32px; border-bottom:1px solid #e4e4e4;}
 .main_about_us .about_top p{font-family:"Microsoft Yahei"; font-size:18px; color:#004da1;}
@@ -150,7 +138,7 @@ body {font-size:15px;background-position:0 0;background-repeat:repeat;}
 .about_bottom .center p{ font-size:14px; line-height:23px; color:#666666;word-wrap:break-word;word-break:break-all; text-align:justify;}
 .about_bottom .right{float:right; width:350px; height:228px; overflow:hidden;}
 .about_bottom .right .bd{ width:350px; height:228px;}
-.about_bottom .right .contact p{height:40px;}
+.about_bottom .right .contact p{height:80px;}
 .about_bottom .right .bd li{height:82px; overflow:hidden;}
 .about_bottom .right .bd li .date{float:left; margin-right:10px; width:67px; height:61px; background:url(../images/assets/0-035.jpg) no-repeat ;}
 .about_bottom .right .bd li .date .day{ display:block;width:65px; height:31px; text-align:center; line-height:31px;font-size:24px; color:#004da1; }
@@ -187,7 +175,7 @@ body {font-size:15px;background-position:0 0;background-repeat:repeat;}
 .sup_bottom .fo li{ float:left; margin-right:12px; width:188px; height:100px; border:1px solid #d4d4d4;  overflow:hidden;}
 .sup_bottom .fo li img{width:188px; height:100px;}
 /*********** foot  ***********/
-.temp_foot{width:100%; min-width:1000px; height:50px; background-color:#004da1; overflow:hidden;_margin-top:10px;} 
+.temp_foot{width:100%; min-width:1000px; height:50px; background-color:#004da1; overflow:hidden;_margin-top:10px;}
 .temp_center{ margin:0 auto; width:1000px; height:290px; overflow:hidden;}
 .temp_foot .top{ padding:30px 30px 0 0; height:208px; border-bottom:1px solid #4e4e4e;}
 .temp_foot .top .l{ float:left;width:618px; height:208px;}
@@ -307,7 +295,7 @@ body {font-size:15px;background-position:0 0;background-repeat:repeat;}
 .product_x h2{ float:left; background-color:#3477c8; width: auto;padding:2px 5px; line-height:30px; vertical-align:middle; font-size:14px;color:#FFF; font-weight:normal;}
 .product_info{ padding-top:20px; width:730px;overflow:hidden;margin:0 auto; vertical-align:middle;color:#5A5A5A;}
 .product_info p{ display:block;line-height:22px; font-size:14px; color:#5A5A5A;word-wrap:break-word;
-word-break:break-all;}
+ word-break:break-all;}
 .product_info img{ max-width:805px; display:block;margin:0 auto;padding:5px 0;}
 .product_page{ width:100%; float: left; padding:10px 0 20px 0;height:24px; line-height:24px; vertical-align:middle; overflow: hidden;}
 table{cellspacing:0;cellpadding:0;}
@@ -332,7 +320,7 @@ table{cellspacing:0;cellpadding:0;}
 .news_b_content p{line-height:24px;font-size:14px;color:#5a5a5a;word-wrap:break-word;}
 .news_b_content p span{font-size:14px;}
 .news_b_content img{max-width:730px;}
-.news_b_foot{  width:730px; height:50px; line-height:50px; font-size:12px; color:#5a5a5a;} 
+.news_b_foot{  width:730px; height:50px; line-height:50px; font-size:12px; color:#5a5a5a;}
 .news_b_foot_l{ float:left; }
 .news_b_foot_r{ float:right;}
 /*********      page      ***************/
@@ -374,7 +362,7 @@ table{cellspacing:0;cellpadding:0;}
 .index_form .in_form .in_yan span{width:144px;}
 .index_form .in_form .in_yan div{height:36px;width:60px;padding:4px 10px;line-height:33px; display:block;position:absolute;top:1px;right:1px;z-index:15;background:#eee;}
 .index_form .in_form .in_yan div img{height:15px;width:50px;margin:5px 0 0 0;}d
-.index_form .in_form .in_sub{ float:right;height:36px;width:170px;position:relative;}
+                                                                              .index_form .in_form .in_sub{ float:right;height:36px;width:170px;position:relative;}
 .index_form .in_form .in_sub .submit{float:right;width:170px;height:36px; text-align:center; line-height:36px; background:#3477C8;border:none; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFF; cursor:pointer; letter-spacing:0.1em;}
 .index_form .in_form .in_sub .submit:hover{background:#3477c8;}
 .index_form .in_form .in_in span.sp_on{color:#ccc;text-align:right;background:#fff;}
