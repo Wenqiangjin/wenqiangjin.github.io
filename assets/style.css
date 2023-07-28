@@ -138,6 +138,7 @@ body {font-size:15px;background-position:0 0;background-repeat:repeat;}
 .about_bottom .center p{ font-size:14px; line-height:23px; color:#666666;word-wrap:break-word;word-break:break-all; text-align:justify;}
 .about_bottom .right{float:right; width:350px; height:228px; overflow:hidden;}
 .about_bottom .right .bd{ width:350px; height:228px;}
+.about_bottom .right .contact{height:80px;}
 .about_bottom .right .bd li{height:82px; overflow:hidden;}
 .about_bottom .right .bd li .date{float:left; margin-right:10px; width:67px; height:61px; background:url(../images/assets/0-035.jpg) no-repeat ;}
 .about_bottom .right .bd li .date .day{ display:block;width:65px; height:31px; text-align:center; line-height:31px;font-size:24px; color:#004da1; }
