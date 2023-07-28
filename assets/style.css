@@ -318,6 +318,7 @@ table{cellspacing:0;cellpadding:0;}
 .temp_r{ float:left; position:relative; margin-left:200px; margin-top:40px; width:800px; *z-index:9999;}
 .n_list{ position:relative; width:730px;height:auto;}
 .n_list_c{ padding:10px 0 20px 0; width:730px; height:auto; }
+.n_list h3{margin-top:30px;}
 .n_list li{ width:730px; height:70px; padding-top:18px; border-bottom:1px dashed #D6D6D6; }
 .n_temp_r_b1{float:left; width:600px; overflow:hidden;}
 .n_temp_r_b1 img,.n_temp_r_b1 h4,.n_temp_r_b1 p{float:left;display:inline-block; font-size:14px; font-weight:normal;}
