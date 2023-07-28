@@ -137,7 +137,7 @@ body {font-size:15px;background-position:0 0;background-repeat:repeat;}
 .main_news .news_bottom li .date{float:left; margin-right:10px; width:67px; height:61px; background:url(../images/assets/0-035.jpg) no-repeat ;}
 .main_news .news_bottom li .date .day{ display:block;width:65px; height:31px; text-align:center; line-height:31px;font-size:24px; color:#004da1; }
 .main_news .news_bottom li .date .month{ display:block;width:65px; height:27px; text-align:center; line-height:27px; font-size:14px; color:#004da1;}
-.main_news .news_bottom li .text{ float:left;width:700px; height:61px;}
+.main_news .news_bottom li .text{ float:left;width:900px; height:61px;}
 .main_news .news_bottom li .text h3{height:20px; line-height:20px; font-size:14px; font-weight:normal; color:#666666;cursor:pointer;}
 .main_news .news_bottom li .text h3:hover{color:#024EA6;}
 .main_news .news_bottom li .text p{ line-height:22px; font-family:simsun; font-size:12px; font-weight:normal; color:#808080;}
