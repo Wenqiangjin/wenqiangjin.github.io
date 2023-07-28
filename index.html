@@ -101,52 +101,27 @@ jQuery(".main_img_c").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true,d
         <div class="app_top"><p>新闻资讯<span>NEWS</span></p></div>
       </div>
       <div class="app_bottom">
-        <div class="news_bottom">
-          <ul class="infoList" id="infoList">{% for post in site.categories["learning-exchange"] %}
-            <li class="li">
-              <div class="date">
-                <p class="day"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%d" }}</a></p>
-                <span class="month"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%Y-%m" }}</a></span>
-              </div>
-              <div class="text">
-                <h3 style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-                <p><a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a></p>
-              </div>
-            </li>{% endfor %}{% for post in site.categories["entertainment"] %}
-            <li class="li">
-              <div class="date">
-                <p class="day"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%d" }}</a></p>
-                <span class="month"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%Y-%m" }}</a></span>
-              </div>
-              <div class="text">
-                <h3 style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-                <p><a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a></p>
-              </div>
-            </li>{% endfor %}{% for post in site.categories["academic-exchange"] %}
-            <li class="li">
-              <div class="date">
-                <p class="day"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%d" }}</a></p>
-                <span class="month"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%Y-%m" }}</a></span>
-              </div>
-              <div class="text">
-                <h3 style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-                <p><a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a></p>
-              </div>
-            </li>{% endfor %}{% for post in site.categories["project-cooperation"] %}
-            <li class="li">
-              <div class="date">
-                <p class="day"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%d" }}</a></p>
-                <span class="month"><a href="{{ site.url }}{{ post.url }}" style="color:#004da1">{{ post.date | date:"%Y-%m" }}</a></span>
-              </div>
-              <div class="text">
-                <h3 style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-                <p><a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a></p>
-              </div>
-            </li>{% endfor %}
+
+        <div class="bd">
+          <ul style="font-size:15px;">
+            <!--update-->
+            <li style=" list-style-type:disc; margin-left:2em; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4;"><span>[07/13 2023]<a href="https://faculty.sustech.edu.cn/?p=188023&amp;tagid=zhangfw&amp;cat=5&amp;iscss=1&amp;snapid=1&amp;lang=zh"><strong>祝贺邬一帆、严文谦同学在网络安全竞赛中连续获得佳绩！</strong>
+									<br>点击查看原文：我系本科生在网络安全竞赛中连续获得佳绩 (qq.com) 近期，计算机系COMPASS实验室战队 […]<br>
+								</a></span></li><br>
+            <li style=" list-style-type:disc; margin-left:2em; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4;"><span>[07/10 2023]<a href="https://faculty.sustech.edu.cn/?p=187282&amp;tagid=zhangfw&amp;cat=5&amp;iscss=1&amp;snapid=1&amp;lang=zh"><strong>祝贺何宛凝、卢弘毅的文章被eBPF'23接收！</strong>
+									<br>祝贺何宛凝、卢弘毅的文章 RingGuard: Guard io_uring with eBPF 被 1st  […]<br>
+								</a></span></li><br>
+            <li style=" list-style-type:disc; margin-left:2em; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4;"><span>[06/30 2023]<a href="https://faculty.sustech.edu.cn/?p=188007&amp;tagid=zhangfw&amp;cat=5&amp;iscss=1&amp;snapid=1&amp;lang=zh"><strong>祝贺熊晖、王宇、邓韵杰、胡煜鑫、何宛凝、金肇轩顺利毕业，各奔前程！</strong>
+									<br>点击查看原文：我和我的课题组 | COMPASS Lab：互相学习 共同成长 (qq.com) 2023年CO […]<br>
+								</a></span></li><br>
+            <!--updateend-->
           </ul>
         </div>
+
       </div>
     </div>
+
+    <div id="back_top" style="display: block; opacity: 1;"><div class="arrow"></div><div class="stick"></div></div>
 
   </div>
 </div>

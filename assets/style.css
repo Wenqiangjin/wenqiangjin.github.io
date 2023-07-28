@@ -127,18 +127,6 @@ body {font-size:15px;background-position:0 0;background-repeat:repeat;}
 .main_app .app_bottom ul li a .pt{ height:30px; line-height:30px; text-align:center;color:#454545;}
 .main_app .app_bottom ul li a:hover .pt{color:#004da1;}
 
-
-.main_app .app_bottom .news_bottom{float:left; width:1000px;}
-.main_app .app_bottom .news_bottom li{height:82px;}
-.main_app .app_bottom .news_bottom li .date{float:left; margin-right:10px; width:67px; height:61px; background:url(../images/assets/0-035.jpg) no-repeat ;}
-.main_app .app_bottom .news_bottom li .date .day{ display:block;width:65px; height:31px; text-align:center; line-height:31px;font-size:24px; color:#004da1; }
-.main_app .app_bottom .news_bottom li .date .month{ display:block;width:65px; height:27px; text-align:center; line-height:27px; font-size:14px; color:#004da1;}
-.main_app .app_bottom .news_bottom li .text{ float:left;width:270px; height:61px; overflow:hidden;}
-.main_app .app_bottom .news_bottom li .text h3{height:20px; line-height:20px; font-size:14px; font-weight:normal; color:#666666;cursor:pointer;}
-.main_app .app_bottom .news_bottom li .text h3:hover{color:#024EA6;}
-.main_app .app_bottom .news_bottom li .text p{ line-height:22px; font-family:simsun; font-size:12px; font-weight:normal; color:#808080;}
-
-
 .main_about_us{width:1000px; height:331px; overflow:hidden;}
 .main_about_us .about_top{ padding-top: 28px; width:1000px; height:32px; border-bottom:1px solid #e4e4e4;}
 .main_about_us .about_top p{font-family:"Microsoft Yahei"; font-size:18px; color:#004da1;}
